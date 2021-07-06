@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Redirecting a webpage using Metatags"
+title:  "Redirecting a webpage using meta tags"
 date:   2021-07-05 15:56:37 +0100
 categories: jekyll update
 ---
