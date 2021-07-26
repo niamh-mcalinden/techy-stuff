@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/techy-stuff/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/techy-stuff/" rel="alternate" type="text/html" /><updated>2021-07-10T16:21:01+01:00</updated><id>http://localhost:4000/techy-stuff/feed.xml</id><title type="html">Niamh’s techy stuff</title><subtitle>This is my blog</subtitle><entry><title type="html">Redirecting a webpage using meta tags</title><link href="http://localhost:4000/techy-stuff/jekyll/update/2021/07/05/adding-basic-css.html" rel="alternate" type="text/html" title="Redirecting a webpage using meta tags" /><published>2021-07-05T15:56:37+01:00</published><updated>2021-07-05T15:56:37+01:00</updated><id>http://localhost:4000/techy-stuff/jekyll/update/2021/07/05/adding-basic-css</id><content type="html" xml:base="http://localhost:4000/techy-stuff/jekyll/update/2021/07/05/adding-basic-css.html">&lt;p&gt;Adding CSS makes the page colourful and easy to navigate!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/techy-stuff/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/techy-stuff/" rel="alternate" type="text/html" /><updated>2021-07-26T16:37:32+01:00</updated><id>http://localhost:4000/techy-stuff/feed.xml</id><title type="html">Niamh’s techy stuff</title><subtitle>This is my blog</subtitle><entry><title type="html">Converting Values in JavaScript</title><link href="http://localhost:4000/techy-stuff/jekyll/update/2021/07/05/converting-values-in-javascript.html" rel="alternate" type="text/html" title="Converting Values in JavaScript" /><published>2021-07-05T15:56:37+01:00</published><updated>2021-07-05T15:56:37+01:00</updated><id>http://localhost:4000/techy-stuff/jekyll/update/2021/07/05/converting-values-in-javascript</id><content type="html" xml:base="http://localhost:4000/techy-stuff/jekyll/update/2021/07/05/converting-values-in-javascript.html">&lt;p&gt;Operating in Javascript is important in order to recognise Data types of values and trying to advoid unexpected results.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;( function (){
+    let sum, net = '25', tax = 5.00
+
+    sum = net + tax
+    console.log('sum: ' + sum + '' + typeof sum )
+    
+    console.log('tax:' + tax + '' + typeof tax )
+    tax= tax.toString()
+    console.log('tax: ' + tax + '' + typeof tax )
+    
+    net = '$' + net
+    console.log('net: ' + net + '' + parselnt( net ))
+    consike.log('net Not a Number? ' + isNan( net )) &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;how-to-see-what-you-did&quot;&gt;How to see what you did!&lt;/h1&gt;
+
+&lt;p&gt;On your keyboard at the same time press CTRL, SHIFT, I. Then go onto ‘Console’ And then you can see what you coded!&lt;/p&gt;
+
+&lt;h1 id=&quot;strings&quot;&gt;strings&lt;/h1&gt;
+
+&lt;p&gt;Strings in JavaScript are primitive data types and immutable, which means they are unchanging. A string is a sequence of one or more characters that may consist of letters, numbers, or symbols.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Operating in Javascript is important in order to recognise Data types of values and trying to advoid unexpected results.</summary></entry><entry><title type="html">Basic CSS</title><link href="http://localhost:4000/techy-stuff/jekyll/update/2021/07/05/adding-basic-css.html" rel="alternate" type="text/html" title="Basic CSS" /><published>2021-07-05T15:56:37+01:00</published><updated>2021-07-05T15:56:37+01:00</updated><id>http://localhost:4000/techy-stuff/jekyll/update/2021/07/05/adding-basic-css</id><content type="html" xml:base="http://localhost:4000/techy-stuff/jekyll/update/2021/07/05/adding-basic-css.html">&lt;p&gt;Adding CSS makes the page colourful and easy to navigate!&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE HTML&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
