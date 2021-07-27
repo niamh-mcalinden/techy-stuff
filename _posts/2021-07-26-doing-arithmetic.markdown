@@ -23,14 +23,14 @@ Commonly used in JavaScript, The Arithmetical Operators including: Addition, Mul
 
 # Operator and Operations
 
-+=  Addition
--=  Subtractions
-*= Multipliation
-/= Division
-%= Modulus
-++= Increment
---= Decrement
-**= Exponentaition
+(+=  Addition)
+(-=  Subtractions)
+(*= Multipliation)
+(/= Division)
+(%= Modulus)
+(++= Increment)
+(--= Decrement)
+(**= Exponentaition)
 
 
 
